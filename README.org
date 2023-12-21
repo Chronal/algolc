@@ -1,0 +1,2 @@
+* algolc
+A bare bones compiler for ALGOL-60 written in Rust.
