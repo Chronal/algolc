@@ -1,3 +1,5 @@
+use super::Regex;
+
 struct DFA {}
 
 impl DFA {
@@ -7,5 +9,6 @@ impl DFA {
 struct NFA {}
 
 impl NFA {
+    fn from_regex(regex: Regex) {}
     fn to_dfa(&self) {}
 }
